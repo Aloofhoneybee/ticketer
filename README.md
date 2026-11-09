@@ -1,5 +1,5 @@
 ticketer
-A tiny helpdesk CLI written in Go. Create tickets, list them, and close them from your terminal. 
+A helpdesk CLI. Create tickets, list them, and close them. 
 
 Run 
 
@@ -13,8 +13,8 @@ go install .
 
 Example
 
-ticketer add "fix wifi
-"
+ticketer add "fix wifi"  
+
 ticketer add "reset password"
 
 ticketer close 1
