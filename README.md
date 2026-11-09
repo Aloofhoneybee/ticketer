@@ -1,0 +1,14 @@
+ticketer
+A tiny helpdesk CLI written in Go. Create tickets, list them, and close them from your terminal.
+
+Run
+git clone https://github.com/Aloofhoneybee/ticketer.git
+cd ticketer
+go install .
+
+Example
+ticketer add "fix wifi"
+ticketer add "reset password"
+ticketer close 1
+ticketer list
+ticketer list --all
