@@ -7,6 +7,8 @@ git clone https://github.com/Aloofhoneybee/ticketer.git
 
 cd ticketer  
 
+go build
+
 go install .
 
 Example
