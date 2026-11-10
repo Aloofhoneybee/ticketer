@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+
 	"ticketer/tickets"
 
 	"github.com/spf13/cobra"
@@ -22,7 +23,7 @@ var addCmd = &cobra.Command{
 		if err := tickets.Save(dataFile, list); err != nil {
 			return err
 		}
-		fmt.Println("Created ticket", id)
+		fmt.Println("Created ticket with ID:", id)
 		return nil
 	},
 }

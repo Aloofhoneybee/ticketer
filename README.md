@@ -1,19 +1,17 @@
 ticketer
-A helpdesk CLI. Create tickets, list them, and close them. 
+A helpdesk CLI. Create tickets, list them, and close them.
 
-Run 
+Run
 
-git clone https://github.com/Aloofhoneybee/ticketer.git  
+git clone https://github.com/Aloofhoneybee/ticketer.git
 
-cd ticketer  
-
-go build
+cd ticketer
 
 go install .
 
 Example
 
-ticketer add "fix wifi"  
+ticketer add "fix wifi"
 
 ticketer add "reset password"
 
